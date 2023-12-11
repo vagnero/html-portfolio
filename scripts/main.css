@@ -98,6 +98,18 @@
     filter: invert(1); /* Isso inverte as cores, tornando os ícones brancos */
 
   }
+
+  .email {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #copyEmail {
+    color: #fefefe;
+    text-decoration: underline;
+    cursor: pointer;
+  }
   
   /* Adicione mais estilos conforme necessário */
   
