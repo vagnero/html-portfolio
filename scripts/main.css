@@ -1,0 +1,103 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  nav {
+    background-color: #000000;
+    padding: 50px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fefefe;
+    padding: 10px;
+  }
+  
+  .menu a:hover {
+    border-bottom: 2px solid #fefefe;
+  }
+  
+  hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  p {
+    text-align: center;
+    color: #666;
+  }
+  
+  h2 {
+    color: #0277BD;
+  }
+  
+  .habilidade{
+    margin: auto;
+  }
+  .habilidade ul{
+    display: flex;
+    margin-left: 30%;
+  }
+  .introducao{
+    margin: auto;
+  }
+  .educacao{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  h4 {
+    color: #333;
+  }
+  
+  .footer {
+    background-color: #000000;
+    color: #fefefe;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .heading h4 {
+    font-size: 1.5em;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .content img {
+    height: 40px;
+    width: 40px;
+    margin: 0 10px; /* Adicione um pequeno espaço entre as imagens */
+    filter: invert(1); /* Isso inverte as cores, tornando os ícones brancos */
+
+  }
+  
+  /* Adicione mais estilos conforme necessário */
+  

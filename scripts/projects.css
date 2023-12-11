@@ -1,0 +1,58 @@
+/* projects.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+
+  
+  h3 {
+    color: #fefefe;
+    margin: 0;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fefefe;
+    padding: 10px;
+  }
+  
+  .menu a:hover {
+    border-bottom: 2px solid #fefefe;
+  }
+  
+  .site1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+  }
+  
+
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  p {
+    color: #333;
+  }
+  
+
+  
+ 

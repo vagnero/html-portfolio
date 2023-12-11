@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font: bold;
+}
+body{
+background-color: #eefaff;
+}
+
+
+nav {
+    background-color: green ;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 180px;
+}
+nav h3{
+    font-size: 130%;
+    font-weight: bold;
+}
+nav .admin{
+    margin-left:5%;
+    margin-right: auto;
+}
+
+nav .admin a:hover{
+    background-color: red;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav .perfilMenu a {
+    background-color: transparent; /* sua cor desejada */;
+
+    /* outros estilos que você deseja aplicar aos links dentro da .perfilMenu */
+}
+
+nav .perfilMenu a:hover {
+    background-color: red; /* sua cor desejada quando hover */;
+    /* outros estilos que você deseja aplicar aos links quando hover dentro da .perfilMenu */
+}
+nav li a{
+    padding: 10px 20px;
+  
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+nav li a:hover{
+    background-color: rgb(111, 113, 113);
+ }
+
+nav li a img{
+    width: 50px;
+    height: 50px;
+    background-color: transparent; /* Define o fundo da imagem como transparente */
+}
+nav li a:not(a) {
+    background-color: blue; /* Mantenha a regra de fundo azul para todos os links exceto as imagens */
+}
