@@ -49,6 +49,7 @@
   
   h2 {
     color: #0277BD;
+  
   }
   
   .habilidade{
@@ -64,6 +65,9 @@
   .educacao{
     margin-left: auto;
     margin-right: auto;
+  }
+  .site1 h2{
+    text-align: center;
   }
   
   ul {
@@ -109,6 +113,9 @@
     color: #fefefe;
     text-decoration: underline;
     cursor: pointer;
+  }
+  h3{
+    color: #000000;
   }
   
   /* Adicione mais estilos conforme necessário */
